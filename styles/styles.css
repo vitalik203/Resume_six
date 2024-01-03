@@ -1,4 +1,9 @@
+body {
+  background-color: blanchedalmond;
+}
+
 .wrapper {
+  background-color: white;
   width: 595px;
   height: 842px;
   border: 2px solid grey;
@@ -120,8 +125,13 @@
 }
 
 .main {
+  width: 468px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 3fr;
+  row-gap: 28px;
+  margin-bottom: 58px;
+  margin-top: 32px;
 }
 .main .main__block {
   color: var(--light-text-primary, #334155);
@@ -130,5 +140,92 @@
   font-size: 9px;
   font-style: normal;
   font-weight: 700;
+  line-height: normal;
+}
+.main .right__firstline-cover {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.main .right__title .var1 {
+  display: inline-block;
+  color: var(--light-text-primary, #334155);
+  /* content-title */
+  font-family: Plus Jakarta Sans;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.main .right__title .var2 {
+  display: inline-block;
+  color: var(--light-text-primary, #334155);
+  /* content */
+  font-family: Plus Jakarta Sans;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .right__title .var3 {
+  display: inline-block;
+  color: var(--light-text-secondary, #64748B);
+  /* label-sm */
+  font-family: Plus Jakarta Sans;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main .right__date {
+  color: var(--light-text-primary, #334155);
+  font-family: Inconsolata;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+.main .skill__cover, .main .object__cover {
+  color: var(--light-label-primary, #64748B);
+  font-family: Plus Jakarta Sans;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: inline-flex;
+  padding: 1px 3px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 3px;
+  background: var(--light-label-background, #F1F5F9);
+}
+.main .right__description {
+  color: var(--light-text-primary, #334155);
+  /* content-xs */
+  font-family: Plus Jakarta Sans;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px; /* 157.143% */
+}
+.main .right__description .li-dot {
+  margin-right: 6px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 1.5px;
+  background: #CBD5E1;
+}
+.main .right__block .mb11 {
+  margin-bottom: 11px;
+}
+.main .right__block-title {
+  color: var(--light-text-secondary, #64748B);
+  font-family: Plus Jakarta Sans;
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }/*# sourceMappingURL=styles.css.map */
