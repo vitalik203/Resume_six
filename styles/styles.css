@@ -117,4 +117,9 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
 }/*# sourceMappingURL=styles.css.map */

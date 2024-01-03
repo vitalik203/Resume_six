@@ -137,6 +137,11 @@ line-height: normal;
 }
 }
 .main {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    .main__block{
+        
+    }
 }
 .footer {
 }
