@@ -1,1 +1,13 @@
-/*# sourceMappingURL=styles.css.map */
+.wrapper {
+  width: 595px;
+  height: 842px;
+  border: 2px solid grey;
+  border-radius: 3px;
+}
+
+.header {
+  width: 595px;
+  height: 160px;
+  flex-shrink: 0;
+  background-color: aquamarine;
+}/*# sourceMappingURL=styles.css.map */

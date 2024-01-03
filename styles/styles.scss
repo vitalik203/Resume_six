@@ -1,0 +1,20 @@
+body{
+
+}
+.wrapper {
+    width: 595px;
+    height: 842px;
+    border: 2px solid grey;
+    border-radius: 3px;
+}
+.header {
+    width: 595px;
+height: 160px;
+flex-shrink: 0;
+// background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+background-color: aquamarine;
+}
+.main {
+}
+.footer {
+}
