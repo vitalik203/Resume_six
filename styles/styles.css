@@ -122,4 +122,13 @@
 .main {
   display: grid;
   grid-template-columns: 1fr 3fr;
+}
+.main .main__block {
+  color: var(--light-text-primary, #334155);
+  /* section-title */
+  font-family: Plus Jakarta Sans;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }/*# sourceMappingURL=styles.css.map */
